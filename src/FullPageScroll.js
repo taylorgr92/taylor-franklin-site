@@ -12,26 +12,25 @@ const FullPageScroll = () => (
         <>
         <ReactFullpage.Wrapper>
 
-          <div className="section home">
-          
-          <HomeCard/>
+          <div className="section home" data-anchor = "section1">
+        
           </div>
 
-          <div className="section skills">
+          <div className="section skills" data-anchor = "section2">
             <p>Section 2</p>
             <button onClick={() => fullpageApi.moveSectionDown()}>
               Click me to move down
             </button>
           </div>
 
-          <div className="section work">
+          <div className="section work" data-anchor = "section3">
             <p>Section 3</p>
             <button onClick={() => fullpageApi.moveSectionDown()}>
               Click me to move down
             </button>
           </div>
 
-          <div className="section contact">
+          <div className="section contact" data-anchor = "section4">
             <p>Section 4</p>
             <button onClick={() => fullpageApi.moveSectionUp()}>
               Click me to move down
