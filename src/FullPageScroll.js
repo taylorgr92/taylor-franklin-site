@@ -1,5 +1,6 @@
 import React from "react";
 import ReactFullpage, { pluginWrapper } from "@fullpage/react-fullpage";
+import HomeSlide from "./homeSect"
 import anchors from "./anchors";
 
 const FullPageScroll = () => (
@@ -16,7 +17,7 @@ const FullPageScroll = () => (
         <>
           <ReactFullpage.Wrapper>
             <div className="section home" data-anchor="Home">
-            <h1>Home</h1>
+            <HomeSlide/>
             </div>
             <div className="section skills" data-anchor="Skills">
             <h1>Skills</h1>

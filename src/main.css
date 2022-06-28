@@ -1,5 +1,19 @@
-div .home .card {
-  background-color: blue;
+h1 {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  letter-spacing: 0.04em;
+  margin-left: 2.5em;
+  margin-right: auto;
+  margin-top: 2.75em;
+}
+
+.card-home {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 2.25rem;
+  margin-left: 4.5em;
+  max-width: 24em;
 }
 
 .home {
@@ -13,11 +27,10 @@ div .home .card {
 }
 
 span.navbar-brand {
-  font-family: "Poppins", sans-serif;
   font-size: 2.5rem;
   margin-left: 1.2rem;
   font-weight: bold;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
   margin-top: auto;
   margin-bottom: auto;
 }/*# sourceMappingURL=main.css.map */

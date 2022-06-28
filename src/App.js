@@ -6,7 +6,7 @@ import ToggleNav from "./toggleNav.js";
 const App = () => {
   return (
     <>
-      {/* <ToggleNav /> */}
+
       <FullPageScroll />
     </>
   );

@@ -1,6 +1,4 @@
-
-
-    const anchors= ["Home", "Skills", "Projects", "Contact"]
+ const anchors= ["Home", "Skills", "Projects", "Contact"]
     
     export default anchors;
   
