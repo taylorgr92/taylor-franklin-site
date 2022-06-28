@@ -8,9 +8,10 @@ const ToggleNav = () => {
       <Container fluid>
         <Navbar.Brand className= "navbar-brand">TF</Navbar.Brand>
         <Nav>
-        <Nav.Link href="#section1">Home</Nav.Link>
-      <Nav.Link href="#section2">Features</Nav.Link>
-      <Nav.Link href="#section3">Pricing</Nav.Link>
+        <Nav.Link href="#Home">Home</Nav.Link>
+      <Nav.Link href="#Skills">Skills</Nav.Link>
+      <Nav.Link href="#Projects">Portfolio</Nav.Link>
+      <Nav.Link href="#Contact">Contact</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
