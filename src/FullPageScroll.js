@@ -1,43 +1,35 @@
 import React from "react";
 import ReactFullpage, { pluginWrapper } from "@fullpage/react-fullpage";
-import HomeSlide from "./homeSect"
+
+import HomeSlide from "./homeSect";
 import anchors from "./anchors";
 
 const FullPageScroll = () => (
   <ReactFullpage
     pluginWrapper={pluginWrapper}
-    scrollingSpeed={1000} /* Options here */
+    scrollingSpeed={1000}
     anchors={anchors}
     navigationTooltips={anchors}
     touchSensitivity={15}
     navigation={true}
-    /* Because we are using the extension */
     render={({ state, fullpageApi }) => {
       return (
         <>
           <ReactFullpage.Wrapper>
             <div className="section home" data-anchor="Home">
-            <HomeSlide/>
+              <HomeSlide />
             </div>
+
             <div className="section skills" data-anchor="Skills">
-            <h1>Skills</h1>
-              <button onClick={() => fullpageApi.moveSectionDown()}>
-                Click me to move down
-              </button>
+              <skillSect />
             </div>
 
             <div className="section projects" data-anchor="Projects">
-              <h1>Projects</h1>
-              <button onClick={() => fullpageApi.moveSectionDown()}>
-                Click me to move down
-              </button>
+              <projectSect />
             </div>
 
             <div className="section contact" data-anchor="Contact">
-              <h1>Contact</h1>
-              <button onClick={() => fullpageApi.moveSectionUp()}>
-                Click me to move down
-              </button>
+              <contactSect />
             </div>
           </ReactFullpage.Wrapper>
         </>
