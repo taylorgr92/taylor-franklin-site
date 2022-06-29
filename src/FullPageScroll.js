@@ -11,7 +11,7 @@ const FullPageScroll = () => (
     anchors={anchors}
     navigationTooltips={anchors}
     touchSensitivity={15}
-    navigation={true}
+ 
     render={({ state, fullpageApi }) => {
       return (
         <>
