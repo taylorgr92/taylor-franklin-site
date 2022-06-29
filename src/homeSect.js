@@ -1,14 +1,14 @@
 import React from "react";
-import { Card, Container, Row, Col, Button, Image } from "react-bootstrap";
+import { Card, Button, Image } from "react-bootstrap";
 
 const HomeSlide = () => {
   return (
     <>
       <div className="home-container">
-        <div className="column 1">
+        <div className="column-1">
           <h1 className="title-home">
-            Hi, I'm Taylor and I develop
-            <br /> apps and websites.
+            Hi, I'm Taylor. <br/> I develop
+            apps and websites.
           </h1>
           <Card>
             <Card.Body className="content-home">
@@ -22,10 +22,10 @@ const HomeSlide = () => {
             </Card.Body>
           </Card>
         </div>
-        <div className="column 2">
-          <Image src="./images/portrait.png"></Image>
+        <div className="column-2">
+          <Image src="./images/portrait.png" className= "my-portrait"></Image>
           <div>
-            <Button className="content-button">Get in touch</Button>
+            <Button className="intouch-button">Get in Touch</Button>
           </div>
         </div>
       </div>

@@ -2,83 +2,76 @@
   background-color: #98ff98;
 }
 
-.home-container{
-  display:flex;
-  
+.home-container {
+  display: flex;
+  flex-direction: row;
 }
 
 h1 {
   font-family: "Nunito Sans", sans-serif;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 5em;
   letter-spacing: 0.02em;
-  margin-left: 2em;
-  margin-top: 2em;
- 
+  margin-left: 2.5em;
+  margin-top: 1.5em;
 }
 
-
-.content-home{
+.content-home {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 2rem;
-  margin-left: 4em;
+  margin-left: 8em;
   margin-right: auto;
   max-width: 24em;
-  margin-bottom:5em;
+  margin-bottom: 5em;
 }
 
-
-
-
-
-
-
-
-
-
-
-.my-portrait{
-float: right;
-margin-right: 20em;
-margin-bottom: 15em;
-}
-
-.contact-button {
-  font-size: 1.75rem;
-  font-family: Arial;
+img .my-portrait {
   float: right;
-  margin-right: 6em;
-  border-width: 1px;
-  color: #fff;
-  border-color: rgba(152, 152, 255, 1);
-  border-top-left-radius: 28px;
-  border-top-right-radius: 28px;
-  border-bottom-left-radius: 28px;
-  border-bottom-right-radius: 28px;
-  text-shadow: -4px 1px 22px rgba(177, 177, 177, 1);
-  background: rgba(152, 152, 255, 1);
-// 
+
+  margin-bottom: 15em;
+  padding-bottom: 3em;
+
 }
 
 
 
-.contact-button {
-  background-color: #9898ff;
-  margin-right: 7em;
-  border-radius: 8px;
-  border: none;
-  padding: 15px 32px;
-  text-align: center;
-  font-size: 1.5rem;
-  text-decoration: none;
-  text-shadow: 0px 1px 2px #000000;
-
- 
+div.column-2 {
+  margin-left: 11em;
+  margin-right: 5em;
+  margin-top: 12em;
 }
 
+.intouch-button {
+  margin-top: 3em;
+  
 
-.contact-button:hover {
-  background: rgba(150, 150, 252, 0.79);
 }
 
+.intouch-button {
+	box-shadow:inset 0px 1px 1px 0px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:15px;
+	border:1px solid #c584f3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:21px;
+	font-weight:bold;
+	padding:17px 22px;
+	text-decoration:none;
+	text-shadow:0px 1px 10px #9752cc;
+}
+.intouch-button:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.intouch-button:active {
+	position:relative;
+	top:1px;
+}
+
+        
+        

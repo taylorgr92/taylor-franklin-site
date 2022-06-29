@@ -7,11 +7,12 @@ import anchors from "./anchors";
 const FullPageScroll = () => (
   <ReactFullpage
     pluginWrapper={pluginWrapper}
-    scrollingSpeed={1000}
+    scrollingSpeed={1000} 
     anchors={anchors}
     navigationTooltips={anchors}
     touchSensitivity={15}
- 
+    navigation={true}
+  
     render={({ state, fullpageApi }) => {
       return (
         <>
@@ -21,15 +22,16 @@ const FullPageScroll = () => (
             </div>
 
             <div className="section skills" data-anchor="Skills">
-              <skillSect />
+            
+             <skillSect/>
             </div>
 
             <div className="section projects" data-anchor="Projects">
-              <projectSect />
+           <projectSect/>
             </div>
 
             <div className="section contact" data-anchor="Contact">
-              <contactSect />
+        <contactSect/>
             </div>
           </ReactFullpage.Wrapper>
         </>
