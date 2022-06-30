@@ -17,6 +17,8 @@ const FullPageScroll = () => (
       return (
         <>
           <ReactFullpage.Wrapper>
+         
+       
             <div className="section home" data-anchor="Home">
               <HomeSlide />
             </div>
