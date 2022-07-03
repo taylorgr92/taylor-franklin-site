@@ -25,7 +25,9 @@ const HomeSlide = () => {
         <div className="column-2">
           <Image src="./images/portrait.png" className= "my-portrait"></Image>
           <div>
-            <Button className="intouch-button" >Get in Touch</Button>
+            <Button className="intouch-button" onClick={() =>
+                  (window.location.href = "mailto:taylorgfranklin@gmail.com")
+                }>Get in Touch</Button>
           </div>
         </div>
       </div>
