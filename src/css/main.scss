@@ -32,7 +32,8 @@ margin-bottom: .25em;
 .content-home {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  background: transparent;
 
    
   max-width: 24em;
@@ -42,6 +43,9 @@ div.column-2 {
   margin-left: 11em;
   margin-right: 17em;
   margin-top: 12em;
+}
+  h1 .title-home {
+  font-size:2rem;
 }
 
 .intouch-button {
@@ -81,5 +85,30 @@ background: #bc80ea;
   background-size: cover;
 }
 
+div .libraries{
+  // width: 15em;
+  height:20em;
 
+  background-color:white;
+  margin-bottom:1em;
+  // opacity: 0;
+}
 
+div .framework{
+  // width: 25em;
+  height:25em;
+  background-color:white;
+  margin-top:1em;
+  // opacity: 0;
+}
+
+div.profile{
+  background-color: #98ff98;
+  border-color:  #98ff98;
+
+}
+
+.languages {
+  max-height:1em;
+  max-width: 2em;
+}

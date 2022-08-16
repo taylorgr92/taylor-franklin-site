@@ -10,7 +10,7 @@ const HomeSlide = () => {
             Hi, I'm Taylor. <br/> I develop
             apps and websites.
           </h1>
-          <Card>
+          <Card className="profile">
             <Card.Body className="content-home">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               nec erat vel tellus viverra sodales quis vitae lacus. Nam at metus
