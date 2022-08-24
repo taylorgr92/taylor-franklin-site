@@ -7,17 +7,17 @@ const SkillSect= () => {
       <Container>
         <div>Libraries</div>
         <Row>
-          <Col><Card className= "libraries"><Card.Title>ReactJS</Card.Title><Image src="./images/reactjs.png" alt= "ReactJS logo" className= "language"></Image></Card>
+          <Col><Card className= "libraries"><Card.Title>ReactJS</Card.Title><Image src="./images/reactjs.png" alt= "ReactJS logo" id= "language"></Image></Card>
           </Col>
-          <Col><Card className= "libraries"><Card.Title>HTML</Card.Title><Image src= "./images/html-logo.png" alt= "HTML logo" className= "language"></Image></Card>
+          <Col><Card className= "libraries"><Card.Title>HTML</Card.Title><Image src= "./images/html-logo.png" alt= "HTML logo" id= "language"></Image></Card>
           </Col>
 
-          <Col><Card className= "libraries"><Card.Title>CSS</Card.Title><Image src= "./images/css-logo.png" alt= "CSS logo" className= "language"></Image></Card>
+          <Col><Card className= "libraries"><Card.Title>CSS</Card.Title><Image src= "./images/css-logo.png" alt= "CSS logo" id= "language"></Image></Card>
           </Col>
 
           <Col><Card className= "libraries"><Card.Title>JavaScript</Card.Title><Image src= "./images/js.png" alt="Bootstrap logo"></Image></Card>
           </Col>
-          <Col><Card className= "libraries"><Card.Title>Framer Motion</Card.Title><Image src="./images/framer-motion-logo.png" alt= "Framer Motion logo" classname= "language"></Image></Card></Col>
+          <Col><Card className= "libraries"><Card.Title>Framer Motion</Card.Title><Image src="./images/framer-motion-logo.png" alt= "Framer Motion logo" id= "language"></Image></Card></Col>
         </Row>
       </Container>
 

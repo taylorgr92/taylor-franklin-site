@@ -23,7 +23,7 @@ const HomeSlide = () => {
           </Card>
         </div>
         <div className="column-2">
-          <Image src="./public/images/my-face.jpg" className= "my-portrait"></Image>
+          <Image src="./images/my-face.jpg" className= "my-portrait"></Image>
           <div>
             <Button className="intouch-button" onClick={() =>
                   (window.location.href = "mailto:taylorgfranklin@gmail.com")
